@@ -1,0 +1,37 @@
+# jQuery.yycoutdown
+#### A simple jQuery plugin for countdown
+
+Refer to the [jQuery yycountdown website](http://yyengine.jp/jquery-yycountdown/) for examples.
+
+## Usage
+``` html
+<link rel="stylesheet" href="css/jquery.yycountdown.css">
+<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="js/jquery.yycountdown.js"></script>
+```
+
+``` javascript
+  $('#timer').yycountdown({
+    endDateTime   : '2020/07/24 00:00:00'
+  });
+  
+  $('#timer2').yycountdown({
+    startDateTime : '2020/07/23 23:59:55',
+    endDateTime   : '2020/07/24 00:00:00',
+    unit          : {d: '“ú', h: 'ŽžŠÔ', m: '•ª', s: '•b'},
+    complete      : function(_this){
+                     _this.find('.yycountdown-box').fadeOut();
+                     }
+  });
+```
+
+``` html
+<div id="timer"></div>
+<div id="timer2"></div>
+```
+
+## Tests
+Open `sample.html`
+
+## Download
+https://github.com/yyengine/jquery-yycountdown/
