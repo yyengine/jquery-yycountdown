@@ -1,4 +1,4 @@
-# jQuery.yycoutdown
+# jQuery.yycountdown
 #### A simple jQuery plugin for countdown
 
 Refer to the [jQuery yycountdown website](http://yyengine.jp/jquery-yycountdown/) for examples.
