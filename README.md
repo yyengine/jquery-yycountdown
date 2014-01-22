@@ -18,7 +18,7 @@ Refer to the [jQuery yycountdown website](http://yyengine.jp/jquery-yycountdown/
   $('#timer2').yycountdown({
     startDateTime : '2020/07/23 23:59:55',
     endDateTime   : '2020/07/24 00:00:00',
-    unit          : {d: '“ú', h: 'ŽžŠÔ', m: '•ª', s: '•b'},
+    unit          : {d: 'æ—¥', h: 'æ™‚é–“', m: 'åˆ†', s: 'ç§’'},
     complete      : function(_this){
                      _this.find('.yycountdown-box').fadeOut();
                      }
