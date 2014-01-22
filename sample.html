@@ -1,0 +1,57 @@
+<!DOCTYPE HTML> 
+<html lang="ja"> 
+<head> 
+<meta charset="UTF-8"> 
+<title>jquery.yycountdown.js</title> 
+<link rel="stylesheet" href="./common/css/reset.css">
+<link rel="stylesheet" href="./common/css/common.css">
+<link rel="stylesheet" href="./css/jquery.yycountdown.css">
+<!--[if lt IE 9]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+</head> 
+<body>
+
+<header>
+<h1></h1>
+</header><!-- header -->
+
+<div id="contents">
+<div class="inner">
+
+<h1>Timer sample 1</h1>
+<div id="olympic">
+	TOKYO<span>●</span>2020
+</div>
+<div id="olympicDate">
+	TOKYO Olympics is on Friday, 24 July 2020 !!
+</div>
+<div id="timer"></div>
+<h1>Timer sample 2</h1>
+<div id="timer2"></div>
+
+</div><!-- inner -->
+</div><!-- contents -->
+
+<footer>
+<!-- footer -->
+</footer>
+
+<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="js/jquery.yycountdown.js"></script>
+<script type="text/javascript">
+	$("#timer").yycountdown({
+		endDateTime   : '2020/07/24 00:00:00'
+	});
+	
+	$("#timer2").yycountdown({
+		startDateTime : '2020/07/23 23:59:55',
+		endDateTime   : '2020/07/24 00:00:00',
+		unit          : {d: '日', h: '時間', m: '分', s: '秒'},
+		complete      : function(_this){
+							_this.find('.yycountdown-box').fadeOut();
+						}
+	});
+</script>
+</body>
+</html>

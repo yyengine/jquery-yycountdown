@@ -1,0 +1,15 @@
+#olympic{
+	text-align:center;
+	font-size:48px;
+	margin-bottom:24px;
+}
+
+#olympic span{
+	color:#FF0000;
+}
+
+#olympicDate{
+	text-align:center;
+	font-size:18px;
+	margin-bottom:24px;
+}

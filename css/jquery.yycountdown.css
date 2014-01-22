@@ -1,0 +1,29 @@
+.yycountdown-box{
+	text-align:center;
+	margin:10px 0;
+	color:#000000;
+}
+
+#timer .yycountdown-box .yyc-day{
+	font-size:3.0em;
+	color:#0085C7;
+}
+#timer .yycountdown-box .yyc-hou{
+	font-size:3.0em;
+	color:#F4C300;
+}
+#timer .yycountdown-box .yyc-min{
+	font-size:3.0em;
+	color:#009F3D;
+}
+#timer .yycountdown-box .yyc-sec{
+	font-size:3.0em;
+	color:#DF0024;
+}
+
+#timer .yycountdown-box .yyc-day-text,
+#timer .yycountdown-box .yyc-hou-text,
+#timer .yycountdown-box .yyc-min-text,
+#timer .yycountdown-box .yyc-sec-text{
+	font-size:1.0em;
+}
