@@ -5,7 +5,7 @@
  * Dual licensed under the MIT and GPL licenses.
  * http://docs.jquery.com/License
  */
-(function($) {
+;(function($) {
 	$.fn.yycountdown = function(options){
 		
 		//default setting
