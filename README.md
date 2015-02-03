@@ -7,7 +7,7 @@ Refer to the [jQuery yycountdown website](http://yyengine.jp/jquery-yycountdown/
 ``` html
 <link rel="stylesheet" href="css/jquery.yycountdown.css">
 <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
-<script type="text/javascript" src="js/jquery.yycountdown.js"></script>
+<script type="text/javascript" src="js/jquery.yycountdown.min.js"></script>
 ```
 
 ``` javascript
